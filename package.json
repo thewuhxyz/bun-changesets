@@ -1,9 +1,8 @@
 {
 	"name": "bun-changesets",
 	"version": "0.1.0",
-	"license": "Apache-2.0",
 	"type": "module",
-  "private": true,
+	"private": true,
 	"scripts": {
 		"build": "bun --filter '*' build"
 	},
@@ -12,6 +11,7 @@
 		"packages/*"
 	],
 	"devDependencies": {
+    "@changesets/cli": "^2.29.3",
 		"@types/node": "^22.13.10",
 		"tsup": "^8.4.0",
 		"typescript": "^5.8.2"
