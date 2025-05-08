@@ -1,0 +1,26 @@
+{
+  "name": "bun-changesets-lib-b",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsup-node",
+    "dev": "tsup-node --watch",
+    "gen-sanity": "cd tests/sanity && cargo run"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "export": ".",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/bun": "^1.2.5",
+    "tsup": "^8.2.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "bun-changesets-lib-a": "workspace:*"
+  }
+}
