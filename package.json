@@ -4,7 +4,8 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"build": "bun --filter '*' build"
+		"build": "bun --filter '*' build",
+    "changesets": "changeset"
 	},
 	"workspaces": [
 		"apps/*",
