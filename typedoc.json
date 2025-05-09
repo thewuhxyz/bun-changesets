@@ -1,0 +1,11 @@
+{
+    "entryPoints": ["packages/lib-a", "packages/lib-b"],
+    "entryPointStrategy": "packages",
+    "out": "docs",
+    "readme": "README.md",
+    "name": "Libs — API References",
+    "includeVersion": true,
+    "excludeNotDocumented": false,
+    "categorizeByGroup": false,
+    "defaultCategory": "Other",
+}
