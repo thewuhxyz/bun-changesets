@@ -6,17 +6,18 @@
 	"scripts": {
 		"build": "bun --filter '*' build",
 		"build:doc": "typedoc",
-    "changesets": "changeset",
-    "release": "bun run build && changeset publish"
+		"changesets": "changeset",
+		"release": "bun run build && changeset publish"
 	},
 	"workspaces": [
 		"apps/*",
 		"packages/*"
 	],
 	"devDependencies": {
-    "@changesets/cli": "^2.29.3",
+		"@changesets/cli": "^2.29.3",
 		"@types/node": "^22.13.10",
 		"tsup": "^8.4.0",
+		"typedoc": "^0.28.4",
 		"typescript": "^5.8.2"
 	}
 }
